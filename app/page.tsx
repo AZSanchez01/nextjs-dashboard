@@ -4,8 +4,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import styles from '@/app/ui/home.module.css';
-import {inter} from './ui/fonts.ts';
-import { lusitana } from './ui/fonts.ts';
+import {inter} from '@/app/ui/fonts';
+import { lusitana } from '@/app/ui/fonts';
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
